@@ -1,0 +1,33 @@
+# ============================================================================
+# Proyecto2026: Plantilla oficial de proyectos de egreso UTU
+# Code Owners - Define quiénes revisan cambios en cada área
+# ============================================================================
+# Referencia: https://docs.github.com/articles/about-code-owners
+#
+# INSTRUCCIONES PARA TU EQUIPO:
+# 1. Reemplaza @usuario-backend con tu usuario de GitHub (responsable backend)
+# 2. Reemplaza @usuario-frontend con tu usuario de GitHub (responsable frontend) 
+# 3. Reemplaza @usuario-devops con tu usuario de GitHub (responsable DevOps/Docker)
+# 4. Mantén @UTU-DGETP/proyecto2026-maintainers para cambios de template
+# ============================================================================
+
+# Código del backend
+backend/         @usuario-backend @UTU-DGETP/proyecto2026-maintainers
+
+# Código del frontend
+frontend/        @usuario-frontend @UTU-DGETP/proyecto2026-maintainers
+
+# Configuración Docker y DevOps
+docker/          @usuario-devops @UTU-DGETP/proyecto2026-maintainers
+docker-compose.yml @usuario-devops @UTU-DGETP/proyecto2026-maintainers
+.env.example     @usuario-devops @UTU-DGETP/proyecto2026-maintainers
+
+# Documentación crítica - revisar entre todos
+docs/            @usuario-backend @usuario-frontend @usuario-devops
+README.md        @usuario-backend @usuario-frontend @usuario-devops
+CONTRIBUTING.md  @usuario-backend @usuario-frontend @usuario-devops
+CHANGELOG.md     @usuario-backend @usuario-frontend @usuario-devops
+
+# Configuración de GitHub - solo maintainers
+.github/         @UTU-DGETP/proyecto2026-maintainers
+# /.github/          @responsable-infra
